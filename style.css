@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+}
+
+nav {
+  position: fixed;
+  font-size: 40px;
+  padding-left: 5rem;
+  width: 100%;
+  background-color: rgb(141, 121, 252);
+  margin-top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+
+#header-img {
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.flexBox {
+  display: inline-flex;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(23, 0, 153);
+}
+
+section {
+  align-items: center;
+}
